@@ -6,8 +6,8 @@ const log = document.getElementById('logBtn');
 const reg = document.getElementById('regBtn');
 
 //REPLACE WITH DB USER DATA
-const userN = 'admin';
-const userP = 'utsautsa';
+const userN = 'root';
+const userP = 'utsapassword';
 
 uName.onfocus = resetErr;
 uPass.onfocus = resetErr;

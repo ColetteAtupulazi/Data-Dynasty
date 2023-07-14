@@ -6,10 +6,10 @@ const port = 3000;
 app.use(express.static('public'));
 
 const dbConfig = {
-    user: 'username',
-    password: 'password',
-    server: 'localhost',
-    database: 'DatabaseName'
+    user: 'user',
+    password: 'utsapassword',
+    server: '34.174.247.100',
+    database: 'shoeshopping'
 };
 
 sql.connect(dbConfig, function (err) {
