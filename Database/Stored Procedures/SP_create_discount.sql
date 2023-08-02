@@ -1,6 +1,6 @@
 DELIMITER //
-Create PROCEDURE create_discount(IN p_Percentage float)
+Create PROCEDURE create_discount(IN p_Name VARCHAR(8), IN p_Percentage float)
 BEGIN
-	INSERT INTO discounts(Percentage) values (p_Percentage);
+	INSERT INTO discounts(Name, Percentage) values (p_Name, p_Percentage);
 END
 //
